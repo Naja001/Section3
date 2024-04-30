@@ -4,7 +4,7 @@ import Section from "./Section.jsx"
 
 export default function CoreConcepts() {
   return (
-    <Section title={"Core concept"} className="primjer">
+    <Section title={"Core concept"} id="core-concepts">
       
       <ul>
         {CORE_CONCEPTS.map((conceptItem) => (
